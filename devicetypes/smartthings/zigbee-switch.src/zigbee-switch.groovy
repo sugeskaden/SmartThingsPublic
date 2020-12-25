@@ -90,6 +90,7 @@ metadata {
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0006", outClusters: "0019", manufacturer: "", model: "TERNCY-LS01", deviceJoinName: "Terncy Switch" //Terncy Smart Light Socket
 
 		// Third Reality
+		fingerprint profileId: "0104", inClusters: "0000, 0006", outClusters: "0006, 0019", manufacturer: "Third Reality, Inc", model: "3RSS009Z", deviceJoinName: "RealitySwitch Switch" //RealitySwitch-Gen3 Zigbee Mode
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0019", manufacturer: "Third Reality, Inc", model: "3RSS008Z", deviceJoinName: "RealitySwitch Switch" //RealitySwitch Plus
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0019", manufacturer: "Third Reality, Inc", model: "3RSS007Z", deviceJoinName: "RealitySwitch Switch" //RealitySwitch
 
@@ -101,9 +102,10 @@ metadata {
 
 		// Enbrighten/Jasco
 		fingerprint manufacturer: "Jasco Products", model: "43100", deviceJoinName: "Enbrighten Switch" //Enbrighten, Plug-in Outdoor Smart Switch, 43100, Raw Description: 01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
-		fingerprint manufacturer: "Jasco Products", model: "43084", deviceJoinName: "Enbrighten Switch" //Enbrighten, In-Wall Smart Switch, Toggle, 43084, Raw Description: 01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
-		fingerprint manufacturer: "Jasco Products", model: "43094", deviceJoinName: "Enbrighten Switch" //Enbrighten, Plug-in Smart Switch, 43094, Raw Description: 01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
-		fingerprint manufacturer: "Jasco Products", model: "43102", deviceJoinName: "Enbrighten Switch" //Enbrighten, In-Wall Smart Outlet, 43102, Raw Description:  01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
+		fingerprint manufacturer: "Jasco Products", model: "43084", deviceJoinName: "Enbrighten Switch" //Enbrighten, In-Wall Smart Switch Toggle, 43084, Raw Description: 01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
+		fingerprint manufacturer: "Jasco Products", model: "43094", deviceJoinName: "Enbrighten Switch" //Enbrighten, Plug-in Smart Switch 43094, Raw Description: 01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
+		fingerprint manufacturer: "Jasco Products", model: "43102", deviceJoinName: "Enbrighten Switch" //Enbrighten, In-Wall Smart Outlet 43102, Raw Description: 01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
+		fingerprint manufacturer: "Jasco Products", model: "43076", deviceJoinName: "Enbrighten Switch" //Enbrighten, In-Wall Smart Switch 43076, Raw Description: 01 0104 0100 00 06 0000 0003 0004 0005 0006 0B05 02 000A 0019
 	}
 
 	// simulator metadata
